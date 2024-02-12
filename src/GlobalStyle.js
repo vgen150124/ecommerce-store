@@ -114,7 +114,7 @@ ${"" /* resuable code section  */}
   .common-heading {
       font-size: 3.8rem;
       font-weight: 600;
-      margin-bottom: 6rem;
+      margin-bottom: 3rem;
       text-transform: capitalize;
     }
 
@@ -141,12 +141,10 @@ input, textarea{
     color: ${({ theme }) => theme.colors.black};
     padding: 1.6rem 2.4rem;
     border: 1px solid ${({ theme }) => theme.colors.border};
-    text-transform: uppercase;
    box-shadow: ${({ theme }) => theme.colors.shadowSupport};
 }
     input[type="submit"]{
     max-width: 16rem;
-    margin-top: 2rem;
     background-color: ${({ theme }) => theme.colors.btn};
     color: ${({ theme }) => theme.colors.white};
     padding: 1.4rem 2.2rem;

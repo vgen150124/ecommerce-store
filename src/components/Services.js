@@ -73,7 +73,6 @@ const Wrapper = styled.section`
     .services-colum-2 {
       background: ${({ theme }) => theme.colors.bg};
       display: flex;
-      flex-direction: row;
       flex: 1;
       justify-content: center;
       align-items: center;
