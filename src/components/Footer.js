@@ -50,7 +50,7 @@ const Footer = () => {
                 <div>
                   <a
                     href="https://www.youtube.com/channel/UCwfaAHy4zQUb2APNOGXUCCA"
-                    target="_blank">
+                  >
                     <FaYoutube className="icons" />
                   </a>
                 </div>
