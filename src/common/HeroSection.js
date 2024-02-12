@@ -26,6 +26,7 @@ const HeroSection = ({ myData }) => {
             <figure>
               <img
                 src="images/hero.jpg"
+                alt="logo"
                 className="img-style"
               />
             </figure>
