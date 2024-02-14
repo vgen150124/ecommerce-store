@@ -9,6 +9,7 @@ import { TbTruckDelivery, TbReplace } from "react-icons/tb";
 import MyImage from "./components/MyImage";
 import Star from './common/Star';
 import AddToCart from './common/AddToCart'
+import FormatPrice from "./helper/FormatPrice";
 
 const API = "https://api.pujakaitem.com/api/products";
 
@@ -54,11 +55,11 @@ const SingleProduct = () => {
             <p className="product-data-price">
               MRP:
               <del>
-                {price + 250000}
+              <FormatPrice price={price + 250000} />
               </del>
             </p>
             <p className="product-data-price product-data-real-price">
-              Deal of the Day: {price}
+              Deal of the Day:  <FormatPrice price={price} />
             </p>
             <p>{description}</p>
             <div className="product-data-warranty">
