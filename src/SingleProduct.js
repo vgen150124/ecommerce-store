@@ -18,12 +18,10 @@ const SingleProduct = () => {
   const { id } = useParams();
 
   const {
-    id: alias,
     name,
     company,
     price,
     description,
-    category,
     stock,
     stars,
     reviews,
@@ -32,7 +30,7 @@ const SingleProduct = () => {
   
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
-  }, []);
+  });
 
   if (isSingleLoading) {
     return <div className="page_loading">Loading.....</div>;

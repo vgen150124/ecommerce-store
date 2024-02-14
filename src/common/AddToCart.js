@@ -6,7 +6,7 @@ import { Button } from "../common/Button";
 import CartAmountToggle from "./CartAmountToggle";
 
 const AddToCart = ({ product }) => {
-  const { id, colors, stock } = product;
+  const { colors, stock } = product;
 
   const [color, setColor] = useState(colors[0]);
   const [value, setValue] = useState(1);
