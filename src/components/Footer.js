@@ -81,6 +81,10 @@ const Footer = () => {
 };
 
 const Wrapper = styled.section`
+
+  footer > div {
+    padding: 0 10px;
+  }
   .iSIFGq {
     margin: 0;
   }
@@ -101,7 +105,7 @@ const Wrapper = styled.section`
   }
 
   footer {
-    padding: 10rem 0 4rem 0;
+    padding: 9rem 0 4rem 0;
     background-color: ${({ theme }) => theme.colors.footer_bg};
     h3 {
       color: ${({ theme }) => theme.colors.hr};
@@ -130,7 +134,7 @@ const Wrapper = styled.section`
   }
 
   .footer-bottom--section {
-    padding-top: 9rem;
+    padding-top: 2rem;
 
     hr {
       margin-bottom: 2rem;

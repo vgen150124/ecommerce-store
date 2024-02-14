@@ -10,7 +10,7 @@ const Nav = () => {
   const Nav = styled.nav`
     .navbar-lists {
       display: flex;
-      gap: 4.8rem;
+      gap: 3.5rem;
       align-items: center;
 
       .navbar-link {
@@ -123,7 +123,7 @@ const Nav = () => {
         opacity: 0;
         transform: translateX(100%);
         /* transform-origin: top; */
-        transition: all 3s linear;
+        /*transition: all 3s linear;*/
       }
 
       .active .navbar-lists {
@@ -132,7 +132,7 @@ const Nav = () => {
         transform: translateX(0);
         z-index: 999;
         transform-origin: right;
-        transition: all 3s linear;
+        /*transition: all 3s linear;*/
 
         .navbar-link {
           font-size: 2.5rem;
@@ -199,7 +199,7 @@ const Nav = () => {
           </li>
           <li>
             <NavLink to="/cart" className="navbar-link cart-trolley--link">
-              <FiShoppingCart className="cart-trolley" size={25} />
+              <FiShoppingCart className="cart-trolley" size={23} />
               <span className="cart-total--item"> 10 </span>
             </NavLink>
           </li>

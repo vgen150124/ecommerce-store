@@ -11,6 +11,7 @@ import { GlobalStyle } from './GlobalStyle';
 import { ThemeProvider } from "styled-components";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
 
