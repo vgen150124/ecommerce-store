@@ -25,7 +25,7 @@ const Footer = () => {
         {/* footer section */}
 
         <footer>
-          <div className="container grid grid-four-column">
+          <div className="container grid grid-four-column" style={{gap: "4rem"}}>
             <div className="footer-about">
               <h3>Thapa Technical</h3>
               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
@@ -156,7 +156,7 @@ const Wrapper = styled.section`
     }
 
     footer {
-      padding: 9rem 0 9rem 0;
+      padding: 5rem 0;
     }
 
     .footer-bottom--section {
