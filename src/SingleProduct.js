@@ -29,9 +29,10 @@ const SingleProduct = () => {
     image
   } = singleProduct;
   
+  
   useEffect(() => {
     getSingleProduct(`${API}?id=${id}`);
-  },[id]);
+  },[]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (isSingleLoading) {
     return <div className="page_loading">Loading.....</div>;
